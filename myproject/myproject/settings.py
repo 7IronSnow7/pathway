@@ -38,7 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'applications',
+    'gsheets',
 ]
+
+GSHEETS = {
+    'CLIENT_SECRETS': '<PATH TO DOWNLOADED CREDENTIALS>'
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
